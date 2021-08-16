@@ -39,32 +39,26 @@ const SignUp = () => {
 
                     <h1 className="text-2xl lg:text-5xl font-bold text-gray-700 lg:mb-6 mb-2 drop-shadow-xl">Tilmelde</h1>
                     
-                    <div className="max-w-sm w-full h-14 mt-3 rounded-2xl bg-gray-100 grid grid-cols-10 py-1.5 shadow-sm">
-                        <i class="fas fa-envelope col-span-2 text-center mt-2 text-gray-500 text-lg"></i>
-                        <Input 
-                            type="text"
-                            placeholder="Email"
-                            nameInput="email"
-                        />
-                    </div>
+                    <Input 
+                        icon="fa-envelope"
+                        type="text"
+                        placeholder="Email"
+                        nameInput="email"
+                    />
 
-                    <div className="max-w-sm w-full h-14 mt-3 rounded-2xl bg-gray-100 grid grid-cols-10 py-1.5 shadow-sm">
-                        <i className="fas fa-lock col-span-2 text-center mt-2 text-gray-500 text-lg"></i>
-                        <Input 
-                            type="password"
-                            placeholder="Adgangskode"
-                            nameInput="psw"
-                        />
-                    </div>
+                    <Input 
+                        icon="fa-lock"
+                        type="password"
+                        placeholder="Adgangskode"
+                        nameInput="psw"
+                    />
 
-                    <div className="max-w-sm w-full h-14 mt-3 rounded-2xl bg-gray-100 grid grid-cols-10 py-1.5 shadow-sm">
-                        <i className="fas fa-check col-span-2 text-center mt-2 text-gray-500 text-lg"></i>
-                        <Input 
-                            type="password"
-                            placeholder="Bekræft adgangskode"
-                            nameInput="psw-check"
-                        />
-                    </div>
+                    <Input 
+                        icon="fa-check"
+                        type="password"
+                        placeholder="Bekræft adgangskode"
+                        nameInput="psw-check"
+                    />
 
                     <div className="max-w-sm w-full h-14 mt-3 ml-5 rounded-2xl grid grid-cols-10 py-1.5">
                         <input className="col-span-1 text-center mt-2" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" required/>
