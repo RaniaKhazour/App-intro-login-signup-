@@ -10,9 +10,8 @@
     clip-path: circle(80% at 100% 50%);
 }
 
-input {
+input[type="password"], input[type="text"]  {
     width: 100%;
-    background-color:rgba(0, 0, 0, 0);
     border: none;
     outline: none;
 }
