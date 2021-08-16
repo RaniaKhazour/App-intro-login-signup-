@@ -46,13 +46,18 @@ export default function Login() {
                     </Link>
 
                     <h1 className="text-2xl lg:text-5xl font-bold text-gray-700 lg:mb-6 mb-2 drop-shadow-xl">Log ind</h1>
+
+                    <div className="max-w-sm w-full h-14 mt-3 rounded-2xl bg-gray-100 flex justify-around py-1.5 shadow-sm flex-row">
+                        <i className="fas fa-envelope text-center mt-2 text-gray-500 text-lg flex-1"></i>
+                        <input className="bg-transparent outline-none border-none font-semibold text-lg text-gray-800 flex-4" type="text" placeholder="Email" name="email" required></input>
+                    </div>
                     
-                    <Input 
+                    {/* <Input 
                         icon="fa-envelope"
                         type="text"
                         placeholder="Email"
                         nameInput="email"
-                    />
+                    /> */}
 
                     <Input 
                         icon="fa-lock"
