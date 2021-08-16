@@ -48,24 +48,23 @@ export default function Login() {
                     <h1 className="text-2xl lg:text-5xl font-bold text-gray-700 lg:mb-6 mb-2 drop-shadow-xl">Log ind</h1>
 
                     <div className="max-w-sm w-full h-14 mt-3 rounded-2xl bg-gray-100 flex justify-around py-1.5 shadow-sm flex-row">
-                        <i className="fas fa-envelope text-center mt-2 text-gray-500 text-lg flex-1"></i>
-                        <input className="bg-transparent outline-none border-none font-semibold text-lg text-gray-800 flex-4" type="text" placeholder="Email" name="email" required></input>
+                       <Input 
+                            icon="fa-envelope"
+                            type="text"
+                            placeholder="Email"
+                            nameInput="email"
+                        />
+                    </div>
+
+                    <div className="max-w-sm w-full h-14 mt-3 rounded-2xl bg-gray-100 flex justify-around py-1.5 shadow-sm flex-row">
+                        <Input 
+                            icon="fa-lock"
+                            type="password"
+                            placeholder="Adgangskode"
+                            nameInput="psw"
+                        />
                     </div>
                     
-                    {/* <Input 
-                        icon="fa-envelope"
-                        type="text"
-                        placeholder="Email"
-                        nameInput="email"
-                    /> */}
-
-                    <Input 
-                        icon="fa-lock"
-                        type="password"
-                        placeholder="Adgangskode"
-                        nameInput="psw"
-                    />
-
                     <button className="rounded-xl bg-green-700 text-white  px-10 py-3.5 ml-2 shadow-lg filter drop-shadow-sm mt-8 transition duration-500 hover:bg-green-600" type="submit" value="login">Log ind</button>
                     <a href="/#!" className="text-gray-500 text-sm mt-4">Glemt?</a>
 
