@@ -47,7 +47,7 @@ export default function Login() {
 
                     <h1 className="text-2xl lg:text-5xl font-bold text-gray-700 lg:mb-6 mb-2 drop-shadow-xl">Log ind</h1>
 
-                    <div className="max-w-sm w-full h-14 mt-3 rounded-2xl bg-gray-100 flex justify-around py-1.5 shadow-sm flex-row">
+                    <div className="max-w-sm w-full h-14 active:h-14 mt-3 rounded-2xl bg-gray-100 flex justify-around py-1.5 shadow-sm flex-row">
                        <Input 
                             icon="fa-envelope"
                             type="text"
@@ -56,7 +56,7 @@ export default function Login() {
                         />
                     </div>
 
-                    <div className="max-w-sm w-full h-14 mt-3 rounded-2xl bg-gray-100 flex justify-around py-1.5 shadow-sm flex-row">
+                    <div className="max-w-sm w-full h-14 active:h-14 mt-3 rounded-2xl bg-gray-100 flex justify-around py-1.5 shadow-sm flex-row">
                         <Input 
                             icon="fa-lock"
                             type="password"
