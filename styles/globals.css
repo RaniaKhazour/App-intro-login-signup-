@@ -20,7 +20,3 @@ input[type="password"], input[type="text"]  {
 .flex-4 {
     flex: 4;
 }
-
-.container-input {
-    background-color: #F3F4F6;
-}
